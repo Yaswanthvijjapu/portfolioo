@@ -16,6 +16,8 @@ import { Contact } from "./components/sections/Contact";
 
 import { PORTFOLIO_DATA } from "./portfolioData";
 
+import { Logo } from "./components/ui/Logo";
+
 function App() {
   const [isDark, setIsDark] = useState(true);
   const [cmdOpen, setCmdOpen] = useState(false);
